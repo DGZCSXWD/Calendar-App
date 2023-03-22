@@ -1,20 +1,20 @@
 "use strict";
 
 $(document).ready(function () {
-  // Display the current date in the header
+  // Show the current date in the header
   $("#currentDay").text(dayjs().format("MMMM D, YYYY"));
 
-  // Time blocks for standard business hours
+  // Time
   const hours = [9, 10, 11, 12, 13, 14, 15, 16, 17];
 
-  // Update past, present, and future classes
+  // Add past, present, and future classes
   const currentHour = dayjs().hour();
 
   hours.forEach((hour) => {
     const timeBlock = $(`#hour-${hour}`);
     const textarea = timeBlock.find(".description");
 
-    // Load saved events from local storage
+    // Load saved info from local storage
     const savedEvent = localStorage.getItem(`hour-${hour}`);
     if (savedEvent) {
       textarea.val(savedEvent);
