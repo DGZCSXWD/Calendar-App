@@ -13,4 +13,8 @@ jQuery
 
 # Getting Started
 
-To use the Work Day Scheduler, simply open the index.html file in a web browser. The current date will be displayed in the header, and you can enter tasks for each hour by clicking on the corresponding text area and typing in your task. To save a task, click on the "Save" button for the corresponding time block. The app will save your tasks in local storage so they persist even if you close the browser or refresh the page.
+To use the Work Day Scheduler, simply open the link below:
+
+https://dgzcsxwd.github.io/Calendar-App/
+
+The current date will be displayed in the header, and you can enter tasks for each hour by clicking on the corresponding text area and typing in your task. To save a task, click on the "Save" button for the corresponding time block. The app will save your tasks in local storage so they persist even if you close the browser or refresh the page.
