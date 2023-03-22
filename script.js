@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     // Add click event listener for the save button
     const button = timeBlock.find(".saveBtn");
-    button.on("click", function () {
+    button.click(function () {
       localStorage.setItem(`hour-${hour}`, textarea.val());
     });
   });
